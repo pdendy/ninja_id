@@ -24,6 +24,10 @@ class NinjaCard extends StatelessWidget {
               backgroundImage: AssetImage('assets/chun-li.png'),
               ),
             ),
+            Divider(
+              height: 60.0,
+              color: Colors.grey[800],
+            ),
             Text(
               'NAME',
               style: TextStyle(
